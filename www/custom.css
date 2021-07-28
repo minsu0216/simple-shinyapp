@@ -1,0 +1,63 @@
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+/* logo */
+.skin-yellow .main-header .logo {
+  background-color: #f4b943;
+}
+
+/* logo when hovered */
+.skin-yellow .main-header .logo:hover {
+  background-color: #f4b943;
+}
+
+/* navbar (rest of the header) */
+.skin-yellow .main-header .navbar {
+  background-color: #f4b943;
+}        
+
+/* main sidebar */
+.skin-yellow .main-sidebar {
+  background-color: #EEE8AA;
+}
+
+/* active selected tab in the sidebarmenu */
+.skin-yellow .main-sidebar .sidebar .sidebar-menu .active a{
+  background-color: #FFFACD;
+  color: #000000;
+  font-weight: bold;  
+  font-size: 16px;  
+}
+
+/* other links in the sidebarmenu */
+.skin-yellow .main-sidebar .sidebar .sidebar-menu a{
+  background-color: #EEE8AA;
+  color: #556B2F;
+  font-weight: bold;
+  font-size: 16px;  
+}
+
+/* other links in the sidebarmenu when hovered */
+.skin-yellow .main-sidebar .sidebar .sidebar-menu a:hover{
+  background-color: #FFFFF0;
+}
+/* toggle button when hovered  */                    
+.skin-yellow .main-header .navbar .sidebar-toggle:hover{
+  background-color: #ff69b4;
+}
+
+.left-side, .main-sidebar{
+  width: 300px;
+}
+
+.content-wrapper, .main-footer, .right-side{
+  margin-left: 300px;
+}
+
+.alert-info, .bg-aqua, .callout.callout-info, .label-info, .modal-info .modal-body{
+  background-color: #EEE8AA;  
+}
