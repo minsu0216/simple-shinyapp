@@ -1,3 +1,3 @@
 # simple-shinyapp
 
-R Shiny visualizing pca, clustering, modeling, and prediction results for uploaded data
+R Shiny web page visualizing pca, clustering, modeling, and prediction results for uploaded data
